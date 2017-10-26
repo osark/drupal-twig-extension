@@ -14,11 +14,6 @@ services:
     tags:
       - { name: twig.extension }
 
-  twig_extensions.twig.intl:
-    class: \Twig_Extensions_Extension_Intl
-    tags:
-      - { name: twig.extension }
-
   twig_extensions.twig.text:
     class: \Twig_Extensions_Extension_Text
     tags:
